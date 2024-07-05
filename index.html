@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sahil's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 23);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(3, 3, 61);
+            ;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            /*for no bullets on list*/
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(152, 152, 237);
+            font-size: 1.04rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            /* > used to select only first div in firstsection class*/
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .rightsection img {
+            width: 90%;
+            margin-top: 30px;
+        }
+
+        .purple {
+            color: rgb(152, 152, 237);
+        }
+
+        #element {
+            color: rgb(152, 152, 237);
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(152, 152, 237);
+            height: 1px;
+            margin: 40px 50px;
+        }
+
+        .secondsection {
+            max-width: 80%;
+            margin: auto;
+            height: 500px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .gray {
+            color: gray;
+            font-size: 0.9rem;
+        }
+
+        .secondsection .horizontal {
+            width: 80vw;
+            height: 2px;
+            background-color: white;
+            margin: 56px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 75px;
+            background: white;
+        }
+
+        .top {
+            width: 70px;
+            position: relative;
+            top: -50px;
+            right: 32px;
+        }
+
+        .tittle {
+            position: relative;
+            top: 40px;
+            right: 50px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .desc {
+            position: relative;
+            top: 40px;
+            right: 60px;
+            width: 150px;
+            font-size: 9px;
+            color: gray;
+
+        }
+        .but {
+            padding: 12px;
+            color: white;
+            background-color: rgb(47, 7, 85);
+            border: 2px solid white;
+            border-radius: 5px;
+            
+        }
+        .but a{
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sahil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I Am <span class="purple">Sahil</span>
+                <div>An Energetic Student At DMS Mandal's College Of Computer Applications</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="but"><a href="Sahil-kurni-Resume-20240506.pdf">Download Reasume</a></button>
+                    <button class="but"><a href="https://github.com/Sahilkurni">Visit GitHub</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+            
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I Have Done So Far</span>
+            <h1>Past Experience</h1>
+            <div class="horizontal">
+                <div class="vertical">
+                    <img src="school.png" alt="" class="top">
+                    <div class="tittle">
+                        School(2018)
+                    </div>
+                    <div class="desc">Completed my schooling from Kendriya Vidyalaya</div>
+                </div>
+                <div class="vertical">
+                    <img src="college.png" alt="" class="top">
+                    <div class="tittle">
+                        PUC(2021)
+                    </div>
+                    <div class="desc">Completed my PUC(12th) in the stream Commerce from JSS RSh PU College</div>
+
+                </div>
+                <div class="vertical"><img src="bca1.png" alt="" class="top">
+                    <div class="tittle">
+                        BCA(Pursuing)
+                    </div>
+                    <div class="desc">Parsuin BCA from DMS Mandal's College of Computer Applications will get passed out
+                        in 2025</div>
+                </div>
+                <div class="vertical"><img src="software.png" alt="" class="top">
+                    <div class="tittle">
+                        Software Development Course(2023)
+                    </div>
+                    <div class="desc">Completed a Course of Software Development from Rooman Technologies which helped
+                        me to learn programming languages like C,C++,JAVA</div>
+                </div>
+                <div class="vertical">
+                    <img src="fullstack.png" alt="" class="top">
+                    <div class="tittle">
+                        Full Stack Web Development Internship(April-May 2024)
+                    </div>
+                    <div class="desc">Did Internship in domain of Full Stack Web Development at Eyesec Cyber Solutions
+                        Pvt. Ltd. where i learned and enhanced my skills in HTML,CSS,JavaScript and had hands on
+                        exprience of project working with React JS,Mongo DB,Git</div>
+                </div>
+                <div class="vertical">
+                    <img src="python.png" alt="" class="top">
+                    <div class="tittle">
+                        DSA with Python Cousre
+                    </div>
+                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nam. Voluptas
+                        dolorum quidem vel doloremque, minima eos fugiat maiores veniam optio laboriosam, a unde beatae
+                        culpa molestiae eaque, et animi?</div>
+                </div>
+                <!-- <div class="vertical"></div> -->
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Emerging Tech Talent', '&amp; Focused On Full Stack Web Development.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
